@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn stackoverflow_lite.wsgi --log-file -
+web: gunicorn practice_project.wsgi --log-file -
